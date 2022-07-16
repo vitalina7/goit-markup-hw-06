@@ -372,12 +372,15 @@
             </div>
             <div class="subscribe-us">
                 <strong class="subscribe-us-strong">Подпишитесь на рассылку</strong>
+                <form class="form-subscription"> 
+
                 <input class="subscribe-form-input" type="email" name="email" id="modal-mail" placeholder="E-mail">
-                <button type="submit" class="subscribe-button-submit">Подписаться</button>
+                <button type="submit" class="subscribe-button-submit">Подписаться
                 <svg class="subscribe-icon">
                     <use href="./icons/symbol-defs.svg#icon-icon-send"></use>
                 </svg>
-        
+                </button>
+            </form>
             </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -429,7 +432,7 @@
                         </div>
                     
                         <label class="modal-label-agree" for="modal-label-agree">Соглашаюсь с
-                            рассылкой и принимаю <a class="modal-link link" href="#">Условия договора</a>
+                            рассылкой и принимаю&nbsp <a class="modal-link link" href="#"> Условия договора</a>
                             <input type="checkbox" class="checkbox visually-hidden" name="modal-agree" id="modal-label-agree" required>
                             <svg class="unchecked-icon" width="16" height="15">
                                 <use href="./icons/symbol-defs.svg#icon-frame"></use>
